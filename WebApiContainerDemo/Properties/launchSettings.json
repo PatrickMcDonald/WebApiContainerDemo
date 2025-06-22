@@ -21,7 +21,8 @@
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
       "environmentVariables": {
         "ASPNETCORE_HTTPS_PORTS": "8081",
-        "ASPNETCORE_HTTP_PORTS": "8080"
+        "ASPNETCORE_HTTP_PORTS": "8080",
+        "DOCKER_HOST": "npipe:////./pipe/podman-machine-default"
       },
       "publishAllPorts": true,
       "useSSL": true
